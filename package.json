@@ -1,19 +1,16 @@
 {
-  "name": "@hussain-/atm-machine",
-  "version": "1.0.0",
+  "name": "hussaainn-00-atm-machine",
+  "version": "2.0.0",
   "description": "A basic functional ATM machine with the help of Javascript , Typescript , Inquirer",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.18"
   },
