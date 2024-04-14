@@ -38,11 +38,11 @@ if (pinanswer.pin === myPin) {
             type: "list",
             choices: ["1000", "2000", "5000", "10000", "12000", "14000", "18000", "20000"]
         });
-        if (TotalBalance <= amountchoice.amount) {
+        if (amountchoice.amount <= TotalBalance) {
             console.log(`You've been credited with ${amountchoice.amount}`);
             console.log(`Now your remaining balance is ${TotalBalance -= amountchoice.amount}`);
         }
-        else if (TotalBalance >= amountchoice.amount) {
+        else if (amountchoice.amount > TotalBalance) {
             console.log("Yov've insufficient balance");
         }
     }
