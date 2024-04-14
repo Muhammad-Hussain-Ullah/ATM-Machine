@@ -1,6 +1,6 @@
 {
   "name": "hussaainn-00-atm-machine",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A basic functional ATM machine with the help of Javascript , Typescript , Inquirer",
   "main": "index.js",
   "type": "module",
